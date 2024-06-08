@@ -149,3 +149,21 @@ const {nama, umur} = person;
 console.log(nama);
 console.log(umur);
  */
+
+
+/**
+ * SPREAD OPERATOR
+ * 
+ * 
+ */
+
+
+const food = [
+    "Mie Goreng",
+    "Nasi Goreng",
+]
+
+const drinks = [
+    "Jus Buah",
+    "Teh Manis"
+]
