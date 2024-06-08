@@ -100,3 +100,30 @@ console.log(users2.age);
  * 
  */
 
+const hobbies = [
+    "swimming",
+    "play footbal",
+    "play game",
+];
+
+console.log(hobbies);
+
+
+// push digunakan untuk menambahkan data ke dalam array hobbies
+hobbies.push("work in office")
+
+// find index digunakan untuk mencari data dari alamat array yang di berikan
+const index = hobbies.findIndex((item) => {
+    return item === "play game";
+})
+
+// otomatis akan menjawab 2 dikarenakan item === "play game"
+console.log(index);
+
+// penggunaan map pada array hobbies untuk menambahkan tanda seru ! pada akhir kata.
+const editHobbies = hobbies.map((item) => item + "!");
+console.log(editHobbies);
+
+// or 
+const editHobbies1 = hobbies.map((item) => ({text: item}));
+console.log(editHobbies1);
