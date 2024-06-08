@@ -96,10 +96,7 @@ console.log(users2.age);
 
 /**
  * Arrays and map()
- * 
- * 
- */
-
+ 
 const hobbies = [
     "swimming",
     "play footbal",
@@ -127,3 +124,28 @@ console.log(editHobbies);
 // or 
 const editHobbies1 = hobbies.map((item) => ({text: item}));
 console.log(editHobbies1);
+
+ */
+
+/**
+ * Destructuring
+ * Destructuring adalah fitur dalam JavaScript 
+ * yang memungkinkan kita untuk "membongkar" nilai dari objek atau array 
+ * ke dalam variabel terpisah.
+ 
+const {name: userName, age} = {
+    name: "Royhan",
+    age: 20,
+};
+
+console.log(userName);
+console.log(age);
+
+// OR
+
+const person = { nama: "Royhans", umur:30 };
+const {nama, umur} = person;
+
+console.log(nama);
+console.log(umur);
+ */
