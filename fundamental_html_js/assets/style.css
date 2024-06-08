@@ -40,3 +40,9 @@ li {
   margin: 0.5rem 0;
   color: #e9e2ba;
 }
+
+.div-body {
+  background-color: red;
+  display: flex;
+  margin: 10px;
+}
