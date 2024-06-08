@@ -153,17 +153,21 @@ console.log(umur);
 
 /**
  * SPREAD OPERATOR
- * 
- * 
- */
-
-
+ 
 const food = [
     "Mie Goreng",
     "Nasi Goreng",
-]
+];
 
 const drinks = [
     "Jus Buah",
     "Teh Manis"
-]
+];
+
+// disini kita menyatukan array food dan drinks, dengan menggunakan operator spreads
+// yaitu ...
+const mergedFoodDrinks = [...food, ...drinks];
+console.log(mergedFoodDrinks);
+console.log(mergedFoodDrinks.length);
+ 
+ */
