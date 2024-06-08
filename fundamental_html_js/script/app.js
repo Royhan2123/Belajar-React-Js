@@ -150,7 +150,6 @@ console.log(nama);
 console.log(umur);
  */
 
-
 /**
  * SPREAD OPERATOR
  
@@ -169,5 +168,19 @@ const drinks = [
 const mergedFoodDrinks = [...food, ...drinks];
 console.log(mergedFoodDrinks);
 console.log(mergedFoodDrinks.length);
- 
+
+// or 
+
+const user = {
+    name: "Royhan",
+    age: 20,
+};
+
+const extedUser = {
+    isAdmin: true,
+    ...user,
+};
+
+console.log(extedUser);
+
  */
