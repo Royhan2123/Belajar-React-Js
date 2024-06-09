@@ -212,4 +212,15 @@ const hobbies = [
 for(const hobby of hobbies) {
     console.log(hobby);
 }
+
+// melakukan perulangan bintang
+const i = 10;
+
+for(let x = 1; x <= i; x++) {
+  let bintang = '';
+  for(let y = 1; y <= x; y++) {
+    bintang += '*';
+  }
+  console.log(bintang);
+}
  */
