@@ -184,3 +184,32 @@ const extedUser = {
 console.log(extedUser);
 
  */
+
+/**
+ * REVISITING CONTROL STRUCTURES
+ konsep dalam pemrograman yang melibatkan peninjauan kembali dan pemahaman mendalam 
+ tentang struktur kontrol dalam sebuah program. Struktur kontrol adalah blok bangunan 
+ dasar dari program yang memungkinkan pengembang untuk mengendalikan alur eksekusi 
+ program berdasarkan kondisi tertentu atau pola tertentu.
+
+
+
+ const password = prompt("Enter your password");
+
+ if (password === "royhan") {
+    console.log("Hello Royhan");
+ } else {
+  console.log("Password not define");
+ }
+
+
+const hobbies = [
+  "sports",
+  "cooking",
+];
+
+// melakukan perulangan untuk memanggil semua data array hobbies
+for(const hobby of hobbies) {
+    console.log(hobby);
+}
+ */
