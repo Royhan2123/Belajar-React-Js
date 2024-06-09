@@ -262,3 +262,49 @@ list.remove();
 </html>
 
  */
+
+/**
+ * Using Function as values
+ 
+function handleTimeOut() {
+  console.log("Timed Out");
+}
+
+const handleTimeOut2 = () => {
+  console.log("Timed Out...again! ");
+};
+
+setTimeout(handleTimeOut, 2000); 
+setTimeout(handleTimeOut2, 3000); 
+
+setTimeout(() => {
+  console.log("More Timing Out");
+}, 4000);
+
+const waktuHabis = () => {
+  const a = () => {
+    console.log("Timed Out brooo!!");
+  };
+
+  setTimeout(a, 3000);
+}
+
+waktuHabis(); 
+
+ */
+
+
+
+/**
+ * Defining Functions inside of Funcions
+
+function init() {
+  function greet() {
+    console.log("Hi");
+  }
+  greet();
+}
+
+init();
+ */
+
