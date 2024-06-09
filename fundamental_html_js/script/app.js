@@ -224,3 +224,41 @@ for(let x = 1; x <= i; x++) {
   console.log(bintang);
 }
  */
+
+/**
+ * MANIPULATING DOM (Document Object Model)
+
+const list = document.querySelector('ul');
+list.remove();
+
+
+// contoh dari HTML SEBELUM kode javascript di jalankan :
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contoh Manipulasi DOM</title>
+</head>
+<body>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+  <p>Paragraf di bawah daftar.</p>
+</body>
+</html>
+
+// ==> Sesudah dikasih kode javascript dan MENJADI SEPERTI INI : 
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contoh Manipulasi DOM</title>
+</head>
+<body>
+  <p>Paragraf di bawah daftar.</p>
+</body>
+</html>
+
+ */
