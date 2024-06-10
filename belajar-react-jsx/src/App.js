@@ -1,14 +1,24 @@
+import './App.css';
+
+function Header(){
+  return <>
+    <header>
+        <img src="/logo192.png" alt="Stylized atom" className="cover-image" />
+        <h1>React Essentials</h1>
+        <p>
+          Fundamental React concepts you will need for almost any app you are
+          going to build!
+        </p>
+      </header>
+  </>
+}
+
 function App() {
-  return (
-    <>
-     <div className="container mx-auto">
-      <div className="grid grid-cols-2 gap-4">
-        <div className="bg-gray-200 p-4">Kolom 1</div>
-        <div className="bg-gray-200 p-4">Kolom 2</div>
+  return <>
+      <div className="App">
+          <Header/>
       </div>
-    </div>
-    </>
-  );
+  </>
 }
 
 export default App;
