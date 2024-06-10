@@ -17,6 +17,9 @@ function App() {
   return <>
       <div className="App">
           <Header/>
+          <main>
+            Hello
+          </main>
       </div>
   </>
 }
