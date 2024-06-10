@@ -3,7 +3,7 @@ import './App.css';
 function Header(){
   return <>
     <header>
-        <img src="/logo192.png" alt="Stylized atom" className="cover-image" />
+        <img src="/assets/react-core-concepts.png" alt="Stylized atom" className="cover-image" />
         <h1>React Essentials</h1>
         <p>
           Fundamental React concepts you will need for almost any app you are
