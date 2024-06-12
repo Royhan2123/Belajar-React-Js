@@ -69,6 +69,21 @@ function App() {
   );
 }
 
+// Disini peran props digunakan sebagai parameter tanpa ada nya tipe data
+// yang dimana disini dia harus membutuhkan anak sebagai inang nya
+// contoh nya seperti : --> 
+/**
+ * cosnt User = (props) => {
+ * <img src= {props.img} /> <-- untuk nama nya bebas ya sesuai dengan yang di inginkan
+ * <p>{props.title}<p/>
+ * }
+ * 
+ * atau bisa langsung seperti ini : 
+ * cosnt User = ({img, title}) => {
+ * <img src= {img} /> 
+ * <p>{title}<p/>
+ * }
+ */
 const CoreConcept = (props) => {
   return (
     <>
