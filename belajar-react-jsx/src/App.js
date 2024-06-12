@@ -11,6 +11,7 @@ function getRandomInt(max) {
 // {nama_variabel} --> contoh : <p> {name} Royhan <p/>  
 
 function Header() {
+  const description = iniArray[getRandomInt(2)];
   return (
     <>
       <header>
@@ -21,7 +22,7 @@ function Header() {
         />
         <h1>React Essentials</h1>
         <p>
-          {iniArray[getRandomInt(2)]} React concepts you will need for almost any app you
+          {description} React concepts you will need for almost any app you
           are going to build!
         </p>
       </header>
