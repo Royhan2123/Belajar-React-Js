@@ -1,4 +1,5 @@
 import "./App.css";
+import reactImg from './assets/react-core-concepts.png';
 
 const iniArray = ["Fundamental ", "React ", "Core "];
 
@@ -8,7 +9,7 @@ function getRandomInt(max) {
 
 // cara menampilkan variabel ke dalam html dengan cara menggunakan kurung kurawal {};
 // const name = "Hello My name is : ";
-// {nama_variabel} --> contoh : <p> {name} Royhan <p/>  
+// {nama_variabel} --> contoh : <p> {name} Royhan <p/>
 
 function Header() {
   const description = iniArray[getRandomInt(2)];
@@ -16,14 +17,14 @@ function Header() {
     <>
       <header>
         <img
-          src="/assets/react-core-concepts.png"
+          src= {reactImg}
           alt="Stylized atom"
           className="cover-image"
         />
         <h1>React Essentials</h1>
         <p>
-          {description} React concepts you will need for almost any app you
-          are going to build!
+          {description} React concepts you will need for almost any app you are
+          going to build!
         </p>
       </header>
     </>
@@ -36,7 +37,7 @@ function App() {
       <div className="App">
         <Header />
       </div>
-    </>
+    </> 
   );
 }
 
