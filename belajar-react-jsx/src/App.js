@@ -2,6 +2,7 @@ import "./App.css";
 import { CORE_CONCEPST } from "./data";
 import CoreConcept from "./components/Core_Concepts";
 import Header from "./components/Header";
+import TabButton from "./components/TabButton";
 
 
 /**
@@ -48,6 +49,16 @@ function App() {
               <CoreConcept {...CORE_CONCEPST[2]} />
               <CoreConcept {...CORE_CONCEPST[3]} />
             </ul>
+          </section>
+
+          <section id="examples">
+            <h2>Examples</h2>
+            <menu>
+              <TabButton>Components</TabButton>
+              <TabButton>JSX</TabButton>
+              <TabButton>Props</TabButton>
+              <TabButton>State</TabButton>
+            </menu>
           </section>
         </main>
       </div>
