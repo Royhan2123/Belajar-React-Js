@@ -1,9 +1,6 @@
 import "./App.css";
 import reactImg from "./assets/react-core-concepts.png";
-import componentImg from "./assets/components.png";
-import configImg from "./assets/config.png";
-import jsxUiImg from "./assets/jsx-ui.png";
-import stateMgmtImg from "./assets/state-mgmt.png";
+import { CORE_CONCEPST } from "./data";
 
 const iniArray = ["Fundamental ", "React ", "Core "];
 
@@ -42,24 +39,24 @@ function App() {
             <br/>
             <ul>
               <CoreConcept
-                title="Components"
-                description="The core UI building block."
-                img={componentImg}
+                title={CORE_CONCEPST[0].title}
+                description={CORE_CONCEPST[0].description}
+                img={CORE_CONCEPST[0].image}
               />
               <CoreConcept
-                title="Config"
-                description="Config Image "
-                img={configImg}
+                 title={CORE_CONCEPST[1].title}
+                 description={CORE_CONCEPST[1].description}
+                 img={CORE_CONCEPST[1].image}
               />
               <CoreConcept
-                title="Jsx Ui"
-                description="Jsx UI Image"
-                img={jsxUiImg}
+                 title={CORE_CONCEPST[2].title}
+                 description={CORE_CONCEPST[2].description}
+                 img={CORE_CONCEPST[2].image}
               />
               <CoreConcept
-                title="State "
-                description="Image State"
-                img={stateMgmtImg}
+                title={CORE_CONCEPST[3].title}
+                description={CORE_CONCEPST[3].description}
+                img={CORE_CONCEPST[3].image}
               />
             </ul>
           </section>
