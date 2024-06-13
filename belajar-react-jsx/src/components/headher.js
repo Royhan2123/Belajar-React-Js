@@ -1,5 +1,5 @@
 import reactImg from "../assets/react-core-concepts.png";
-import "../components/style_header.css";
+import "../components/Style_Header.css";
 
 const iniArray = ["Fundamental ", "React ", "Core "];
 
