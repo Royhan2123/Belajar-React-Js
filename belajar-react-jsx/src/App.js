@@ -1,6 +1,9 @@
 import "./App.css";
 import { CORE_CONCEPST } from "./data";
-import Header from "./components/headher";
+import CoreConcept from "./components/Core_Concepts";
+import Header from "./components/Header";
+
+
 /**
  * Disini kita akan menggabungkan semua data dan langsung memanggil nya seperti di bawah ini saja
  * yang dimana sebelumnya --> :
@@ -67,16 +70,6 @@ function App() {
  * <p>{title}<p/>
  * }
  */
-const CoreConcept = ({image,title,description}) => {
-  return (
-    <>
-      <li>
-        <img src={image} alt={title} />
-        <h3>{title}</h3>
-        <p> {description} </p>
-      </li>
-    </>
-  );
-};
+
 
 export default App;
